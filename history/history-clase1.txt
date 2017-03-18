@@ -1,0 +1,439 @@
+    1  exit
+    2  reboot
+    3  su - soporte
+    4  mkdir Academia-UCR
+    5  LS
+    6  ls
+    7  rm Academia-UCR/
+    8  rm -R Academia-UCR/
+    9  ls
+   10  cd 
+   11  mkdir Academia-UCR
+   12  git clone https://github.com/crsMois/LXS2_II_2017_mbm.git
+   13  ls
+   14  git clone https://github.com/crsMois/LXS2_II_2017_mbm.git mi-repo-remoto
+   15  ls
+   16  cd mi-repo-remoto/
+   17  ls
+   18  git log 
+   19  ifconfig >> misc/file1 
+   20  git status 
+   21  git add misc/file1 
+   22  git commit -m "Modificacion desde la casa"
+   23  git status
+   24  git push -u origin master  
+   25  vi misc/file1 
+   26  cd
+   27  cd Downloads/
+   28  ls
+   29  clear
+   30  ls
+   31  cd
+   32  cd l
+   33  LXS2_II_2017_mbm/
+   34  ls
+   35  history
+   36  type git
+   37  cd Documents
+   38  clear
+   39  mkdir LXS2_II_2017_mbm
+   40  ls
+   41  cd LXS2_II_2017_mbm/
+   42  CLEAR
+   43  clear
+   44  git init
+   45  tree
+   46  yum -y install tree
+   47  yum install tree
+   48  apt-get install tree
+   49  su
+   50  su -soporte P6p3.aas
+   51  su -soporte 
+   52  su
+   53  su -soporte 
+   54  su - soporte 
+   55  ls
+   56  cd Documents/
+   57  ls
+   58  cd LXS2_II_2017_mbm/
+   59  LS
+   60  ls
+   61  ls -la
+   62  git config --global user.name "Moises Bonilla
+   63  "
+   64  git config --global user.mail "moibonill@hotmail.com
+   65  "
+   66  tree
+   67  vim ~/.gitconfig
+   68  ls -la
+   69  vim .gitignore
+   70  mkdir src
+   71  mkdir misc
+   72  mkdir logs
+   73  mkdir data
+   74  tree
+   75  tree -a
+   76  touch logs/file1
+   77  touch misc/file1
+   78  touch src/file1
+   79  touch data/file1
+   80  git status
+   81  git add --all
+   82  git status
+   83  git commit -m "Inicio de la estructura de mi repo"
+   84  git status
+   85  touch data/file2
+   86  git status
+   87  last > misc/ultimo-acceso.log
+   88  last
+   89  head dmesg >> data/file1
+   90  dmesg | head >> data/file1
+   91  ls
+   92  cd data/
+   93  ls
+   94  cat file1
+   95  clear
+   96  git status
+   97  git add data/file1
+   98  cd ..
+   99  git add data/file1
+  100  git add data/file2
+  101  git status
+  102  git commt -m "dos nuevos archivos"
+  103  git commit -m "dos nuevos archivos"
+  104  git lo
+  105  git log
+  106  git remote add origin https://github.com/crsMois/LXS2_II_2017_mbm.git
+  107  git push remote -v
+  108  git remote -v
+  109  git push -u origin master
+  110  git log
+  111  git pull origin master
+  112  ls
+  113  mkdir history
+  114  ls
+  115  git status
+  116  ls
+  117  cd
+  118  cd LXS2_II_2017_mbm/
+  119  LS
+  120  ls
+  121  mkdir history
+  122  alias stm= 'data+%Y%m%d'
+  123  alias stm= 'date +%Y%m%d'
+  124  alias stm= 'date +%Y%m%d
+  125  alias stm= 'date +%Y%m%d'
+  126  history > history/history-stm
+  127  alias Stm= 'date +%Y%m%d'
+  128  alias Stm=+ 'date +%Y%m%d'
+  129  alias Stm='date +%Y%m%d'
+  130  history > history/history-stm
+  131  ls
+  132  cd history/`
+  133  ls
+  134  history > history/history-`Stm`.log
+  135  history > history/history-`Stm`
+  136  alias dtm='date +%Y%m%d'
+  137  alias stm='date +%Y%m%d'
+  138  stm
+  139  history > history/history-`stm`.log
+  140  cd ..
+  141  history > history/history-`stm`.log
+  142  cd history/
+  143  ls
+  144  rm -r history-stm 
+  145  ls
+  146  clear
+  147  var_time=`stm`
+  148  var_time
+  149  $var_time
+  150  history > history/history-$var_time.log
+  151  cd ..
+  152  history > history/history-$var_time.log
+  153  clear
+  154  cd history/
+  155  ls
+  156  history > history/history-$var_time.log2
+  157  cd ..
+  158  clear
+  159  history > history/history-$var_time.log2
+  160  cd history/
+  161  ls
+  162  history
+  163  alias -p
+  164  stm
+  165  var_time
+  166  $var_time
+  167  `var_time`
+  168  echo $var_to,e
+  169  echo $var_time
+  170  stm
+  171  `stm`
+  172  cd ..
+  173  reportes () { cd /usr/share/doc; echo "reporte del dia `date +%Y%m%d'" > /tmp/reporte
+  174  date >> /tmp/reporte
+  175  pwd >> /tmp/reporte
+  176  du -sh >> /tmp/reporte
+  177  }
+  178  :W
+  179  reportes () { cd /usr/share/doc; echo "reporte del dia `date +%Y%m%d'" > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh >> /tmp/reporte; }
+  180  reportes
+  181  history
+  182  reportes () { cd /usr/share/doc; echo "reporte del dia `date +%Y%m%d'" > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh >> /tmp/reporte; }
+  183  reportes () { cd /usr/share/doc; echo "reporte del dia `date +%Y%m%d'" > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh >> /tmp/reporte; }
+  184  reportes () { cd /usr/share/doc; echo "reporte del dia `date +%Y%m%d`" > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh >> /tmp/reporte; }
+  185  reportes
+  186  cd /tmp/
+  187  ls
+  188  vi reporte 
+  189  cd
+  190  cat Downloads/virt-inst.sh 
+  191  cd LXS2_II_2017_mbm/
+  192  LS
+  193  cd L
+  194  ls
+  195  cd src/
+  196  clear
+  197  echo '#!/bin/bash' > monitor.sh
+  198  ls
+  199  history
+  200  echo 'echo Reporte:  >> /tmp/reporte' >> monitor.sh 
+  201  echo 'date >> /tmp/reporte' >> monitor.sh 
+  202  echo 'pwd >> /tmp/reporte' >> monitor.sh 
+  203  echo 'du- sh >> /tmp/reporte' >> monitor.sh 
+  204  cat monitor.sh 
+  205  vim monitor.sh 
+  206  chmod u+x monitor.sh 
+  207  vim monitor.sh 
+  208  ./monitor.sh 
+  209  vim monitor.sh 
+  210  ls
+  211  ./monitor.sh 
+  212  vim monitor.sh 
+  213  ./monitor.sh 
+  214  cat monitor.sh 
+  215  history
+  216  cd ..
+  217  cd /tmp/
+  218  ls
+  219  vim reporte 
+  220  cd -
+  221  ls
+  222  cd src/
+  223  vi monitor.sh 
+  224  git status 
+  225  git commit -m "creacion del script monitoreo"
+  226  git add monitor.sh 
+  227  git commit -m "creacion del script monitoreo"
+  228  git push origin master 
+  229  git status
+  230  clear
+  231  git status
+  232  git push origin master 
+  233  clear
+  234  git clone https://github.com/emvarg/LXS2_II-2017_evg.git repo-del-profe
+  235  git pull
+  236  git push origin master 
+  237  git clone https://github.com/emvarg/LXS2_II-2017_evg.git repo-del-profe
+  238  cd
+  239  git clone https://github.com/emvarg/LXS2_II-2017_evg.git repo-del-profe
+  240  mkdir test
+  241  git clone https://github.com/emvarg/LXS2_II-2017_evg.git repo-del-profe
+  242  cd test/
+  243  git clone https://github.com/emvarg/LXS2_II-2017_evg.git repo-del-profe
+  244  cd
+  245  cd test/
+  246  history
+  247  crsMois
+  248  cd 
+  249  cd LXS2_II_2017_mbm/
+  250  CD 
+  251  CD
+  252  cd
+  253  cd test/
+  254  git clone https://github.com/emvarg/LXS2_II-2017_evg.git repo-del-profe
+  255  git clone https://github.com/emvarg/LXS2_II-2017_evb.git
+  256  git clone https://github.com/emvarg/LXS2_II-2017_evb.git repo-del-profe
+  257  history
+  258  ls
+  259  cd
+  260  cd LXS2_II_2017_mbm/
+  261  pwd
+  262  cd src/
+  263  ls
+  264  pwd
+  265  cd -
+  266  cd ..
+  267  ls
+  268  cd test/
+  269  ls
+  270  cd repo-del-profe/
+  271  ls
+  272  cd src/
+  273  ls
+  274  pwd
+  275  cp -r /home/estudiante/test/repo-del-profe/src/monitor.sh /home/estudiante/LXS2_II_2017_mbm/src/
+  276  cd
+  277  cd LXS2_II_2017_mbm/
+  278  LS
+  279  ls
+  280  cd src/
+  281  ls
+  282  cat monitor.sh 
+  283  clear
+  284  vi monitor
+  285  vi monitor.sh 
+  286  ./monitor.sh 
+  287  ls
+  288  vi monitor.sh 
+  289  ./monitor.sh 
+  290  vi monitor.sh 
+  291  ./monitor.sh 
+  292  cat /tmp/reporte 
+  293  ./monitor.sh 
+  294  git status 
+  295  git add monitor.sh 
+  296  git diff monitor.sh
+  297  cd ..
+  298  cd src/
+  299  vi monitor.sh 
+  300  git diff monitor.sh
+  301  git add monitor.sh 
+  302  git commit 
+  303  git log
+  304  git push
+  305  ls -la
+  306  ls
+  307  cd ..
+  308  ls
+  309  ls -l
+  310  ls -la
+  311  vim .git
+  312  history
+  313  git remote -b
+  314  git remote -v
+  315  cd src/|
+  316  cd src/
+  317  ls
+  318  vi monitor.sh 
+  319  git status 
+  320  git add -a
+  321  git add 
+  322  ?
+  323  git add -a
+  324  git add -A
+  325  ls
+  326  cd ..
+  327  ls
+  328  cd src/
+  329  ls
+  330  git pull
+  331  git stat|
+  332  git status 
+  333  git -m "mejora del script de respaldo"
+  334  git commit -m "mejora del script de respaldo"
+  335  git push
+  336  clear
+  337  var=casa
+  338  var
+  339  $var
+  340  var=casa
+  341  var2=car
+  342  4?
+  343  $?
+  344  ?$
+  345  echo $
+  346  echo $?
+  347  echo var2
+  348  echo $var2
+  349  var=var2
+  350  echo $?
+  351  echo $var
+  352  var=$var2
+  353  echo $?
+  354  echo $var
+  355  var=perro
+  356  var2=perro
+  357  test $var=var2 && ls-l
+  358  test $var=var2 && ls -l
+  359  var=ki
+  360  test $var=var2 && ls -l
+  361  $var
+  362  echo $var
+  363  test $var=$var2 && ls -l
+  364  test $var=$var2 & ls -l
+  365  test var=var2 && ls -l
+  366  test var==var2 && ls -l
+  367  test var=var2 && ls -l
+  368  test
+  369  test var=var2 
+  370  echo $?
+  371  echo $var2
+  372  echo $var
+  373  test var=var2 
+  374  echo $?
+  375  test $var=$var2 
+  376  echo $?
+  377  clear
+  378  if [ $USER = 'estudiante' ]; then    echo 'el usuario puede continuar' ; fi
+  379  if [ $USER = 'estudiane' ]; then    echo 'el usuario puede continuar' ; fi
+  380  vi
+  381  ls
+  382  touch 
+  383  touch argumentos
+  384  vi argumentos 
+  385  ls
+  386  vi monitor.sh 
+  387  vi ls
+  388  ls
+  389  vi argumentos 
+  390  vi monitor.sh 
+  391  vim argumentos 
+  392  rm argumentos 
+  393  vim argu
+  394  history 
+  395  vim mon
+  396  cd
+  397  cd test/
+  398  git pull 
+  399  git clone https://github.com/emvarg/LXS2_II-2017_evb.git repo-del-profe
+  400  git pull 
+  401  ls
+  402  cd repo-del-profe/
+  403  git pull 
+  404  ls
+  405  cd src/
+  406  ls
+  407  vi parametros.sh 
+  408  cp -r /home/estudiante/test/repo-del-profe/src/parametros.sh /home/estudiante/LXS2_II_2017_mbm/src/
+  409  cd /home/estudiante/LXS2_II_2017_mbm/src/
+  410  ls parametros.sh 
+  411  vi parametros.sh 
+  412  ./parametros.sh 
+  413  ./parametros.sh hola
+  414  ./parametros.sh hola hoal hola
+  415  ./parametros.sh perro hoal hola
+  416  git status
+  417  vim parametros.sh 
+  418  git pull
+  419  git status
+  420  git add parametros.sh 
+  421  git commit -m "validacion de parametros"
+  422  cd -
+  423  ls
+  424  git remote -v
+  425  cd ..
+  426  cd -
+  427  cd 
+  428  cd LXS2_II_2017_mbm/
+  429  ls
+  430  cd history/
+  431  ls
+  432  history
+  433  cd l
+  434  cd LXS2_II_2017_mbm/
+  435  ld
+  436  LS
+  437  ls 
+  438  cd history/
+  439  history > history-clase1

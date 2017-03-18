@@ -7,7 +7,8 @@ current_pwd=`pwd`
 current_pwd=$(pwd)
 
 read -p "ingrese ruta a respaldar: " dir
-echo "ingrese la ruta a respaldar"
+#echo "ingrese la ruta a respaldar"
+
 read dir
 
 cd /usr/share/doc

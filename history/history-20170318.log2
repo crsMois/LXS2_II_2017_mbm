@@ -1,0 +1,111 @@
+    1  exit
+    2  reboot
+    3  su - soporte
+    4  ls
+    5  cd Documents/
+    6  ls
+    7  cd LXS2_II_2017_mbm/
+    8  LS
+    9  ls
+   10  ls -la
+   11  git config --global user.name "Moises Bonilla
+
+"
+   12  git config --global user.mail "moibonill@hotmail.com
+
+"
+   13  tree
+   14  vim ~/.gitconfig
+   15  ls -la
+   16  vim .gitignore
+   17  mkdir src
+   18  mkdir misc
+   19  mkdir logs
+   20  mkdir data
+   21  tree
+   22  tree -a
+   23  touch logs/file1
+   24  touch misc/file1
+   25  touch src/file1
+   26  touch data/file1
+   27  git status
+   28  git add --all
+   29  git status
+   30  git commit -m "Inicio de la estructura de mi repo"
+   31  git status
+   32  touch data/file2
+   33  git status
+   34  last > misc/ultimo-acceso.log
+   35  last
+   36  head dmesg >> data/file1
+   37  dmesg | head >> data/file1
+   38  ls
+   39  cd data/
+   40  ls
+   41  cat file1
+   42  clear
+   43  git status
+   44  git add data/file1
+   45  cd ..
+   46  git add data/file1
+   47  git add data/file2
+   48  git status
+   49  git commt -m "dos nuevos archivos"
+   50  git commit -m "dos nuevos archivos"
+   51  git lo
+   52  git log
+   53  git remote add origin https://github.com/crsMois/LXS2_II_2017_mbm.git
+   54  git push remote -v
+   55  git remote -v
+   56  git push -u origin master
+   57  git log
+   58  git pull origin master
+   59  ls
+   60  mkdir history
+   61  ls
+   62  git status
+   63  ls
+   64  cd
+   65  cd LXS2_II_2017_mbm/
+   66  LS
+   67  ls
+   68  mkdir history
+   69  alias stm= 'data+%Y%m%d'
+   70  alias stm= 'date +%Y%m%d'
+   71  alias stm= 'date +%Y%m%d
+
+   72  alias stm= 'date +%Y%m%d'
+   73  history > history/history-stm
+   74  alias Stm= 'date +%Y%m%d'
+   75  alias Stm=+ 'date +%Y%m%d'
+   76  alias Stm='date +%Y%m%d'
+   77  history > history/history-stm
+   78  ls
+   79* cd history/`
+   80  ls
+   81  history > history/history-`Stm`.log
+   82  history > history/history-`Stm`
+   83  alias dtm='date +%Y%m%d'
+   84  alias stm='date +%Y%m%d'
+   85  stm
+   86  history > history/history-`stm`.log
+   87  cd ..
+   88  history > history/history-`stm`.log
+   89  cd history/
+   90  ls
+   91  rm -r history-stm 
+   92  ls
+   93  clear
+   94  var_time=`stm`
+   95  var_time
+   96  $var_time
+   97  history > history/history-$var_time.log
+   98  cd ..
+   99  history > history/history-$var_time.log
+  100  clear
+  101  cd history/
+  102  ls
+  103  history > history/history-$var_time.log2
+  104  cd ..
+  105  clear
+  106  history > history/history-$var_time.log2

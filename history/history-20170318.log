@@ -1,4 +1,42 @@
-    1  exit
+    
+
+DOS CON RAID 1
+LVM
+GLUSTER
+
+
+-----------------------------------------------------------------------------------------------
+Creacion de directorio e inicializacion del mismo con .git
+
+estudiante@lab8-12:~/Documents/LXS2_II_2017_mbm$ git init
+Initialized empty Git repository in /home/estudiante/Documents/LXS2_II_2017_mbm/.git/
+
+
+
+variables de entorno, ambiente
+bashrc
+
+. .bashrc: me recarga todas de nuevo las variables de entono sin tener que reiniciar
+
+casos de existo: 
+__&&___
+
+
+
+-permiso de escritura y ejecucion.
+-"!#/bin/bash" programa para ejecutar codigo
+
+rabo de chancho 	
+"#!/bin/bash"
+
+
+
+$0:comando que se esta ejecutando
+$1 $2 : parametros 
+
+
+
+1  exit
     2  reboot
     3  su - soporte
     4  ls
